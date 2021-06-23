@@ -3,8 +3,7 @@ import {useEffect, useState} from "react";
 import Post from "./post/post";
 
 export default function Posts() {
-
-    let [postsList, setPostsList] = useState([]);
+    const [postsList, setPostsList] = useState([]);
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/posts')
@@ -13,6 +12,7 @@ export default function Posts() {
                 setPostsList(value);
             })
     }, []);
+
     return(
         <div className='posts'>
             <h1>Posts</h1>

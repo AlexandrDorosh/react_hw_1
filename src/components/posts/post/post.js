@@ -11,7 +11,6 @@ export default function Post({items}){
                 <p>title - {title},</p>
                 <p>body - {body}.</p>
             </div>
-
         </div>
     )
 }
