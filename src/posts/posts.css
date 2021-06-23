@@ -1,0 +1,9 @@
+.posts{
+    padding: 50px;
+}
+
+.posts h1{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #61dafb;
+}
