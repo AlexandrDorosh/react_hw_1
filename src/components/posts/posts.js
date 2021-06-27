@@ -20,5 +20,6 @@ export default function Posts() {
                 postsList.map(value => <Post key={value.id} items={value}/>)
             }
         </div>
+        //  TODO hw_2
     )
 }
